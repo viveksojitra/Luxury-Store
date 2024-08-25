@@ -1,0 +1,14 @@
+.body-container {
+    width: calc(100% - 250px);
+    background-color: #f8f9fa;
+    overflow-y: auto;
+}
+
+.title-dashboard{
+    font-size: 16px;
+}
+
+.table-row{
+    min-height: 650px;
+    padding: 0px 12px;
+}

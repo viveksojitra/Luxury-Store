@@ -1,0 +1,16 @@
+.create-product {
+    margin-top: 50px;
+}
+
+.create-product h2 {
+    margin-bottom: 30px;
+}
+
+.create-product .form-group {
+    margin-bottom: 20px;
+}
+
+.create-product .btn {
+    min-width: 15%;
+    padding: 10px;
+}
