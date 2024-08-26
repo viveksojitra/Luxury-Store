@@ -2,6 +2,7 @@ import { Container } from "react-bootstrap"
 import '../styles/Footer.css'
 
 function Footer() {
+
   return (
       <footer className="footer bg-dark text-white text-center py-3">
           <Container>

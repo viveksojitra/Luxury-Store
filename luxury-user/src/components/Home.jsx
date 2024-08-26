@@ -10,17 +10,24 @@ function Home() {
 
     const dispatch = useDispatch();
 
+    const { isLogin } = useSelector((state) => state.authReducer);
     const { products } = useSelector((state) => state.productReducer);
 
-    const nevigateTo = useNavigate();
+    const navigateTo = useNavigate();
 
     const handleNevigate = (id) => {
-        nevigateTo(`/product/${id}`);
+        navigateTo(`/product/${id}`);
     }
 
     useEffect(() => {
         dispatch(productGetAsync());
     }, [dispatch]);
+
+    useEffect(() => {
+        if (!isLogin) {
+            navigateTo("/login");
+        }
+    }, [isLogin, navigateTo]);
 
     if (!products) {
         return <div>Loading...</div>;

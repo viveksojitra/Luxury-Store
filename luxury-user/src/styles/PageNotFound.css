@@ -1,0 +1,36 @@
+/* PageNotFound.css */
+.page-not-found {
+    min-height: 100vh;
+    background-color: #f8f9fa;
+    padding: 40px 0;
+}
+
+.not-found-image {
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+h1.display-4 {
+    font-family: 'Georgia', serif;
+    color: #343a40;
+}
+
+p.lead {
+    font-size: 1.25rem;
+    color: #6c757d;
+}
+
+.btn-primary {
+    background-color: #343a40;
+    border-color: #343a40;
+}
+
+.btn-outline-secondary {
+    color: #343a40;
+    border-color: #343a40;
+}
+
+.btn-outline-secondary:hover {
+    background-color: #343a40;
+    color: white;
+}

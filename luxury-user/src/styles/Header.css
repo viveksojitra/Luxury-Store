@@ -50,3 +50,56 @@
 .cart-brand{
     font-size: 18px;
 }
+
+.user-icon{
+    color: gray;
+}
+
+.dropdown-toggle::after{
+    color: gray;
+}
+
+.card-logout {
+    width: 100%;
+    color: #5f6368;
+    cursor: pointer;
+    min-height: 10px;
+    background-color: #ffffff;
+    display: inline-block;
+    position: relative;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.19), 0 4px 6px rgba(0, 0, 0, 0.23);
+}
+
+.logout-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.logout-container h5 {
+    display: inline-flex;
+    font-size: 17px;
+    margin: auto;
+    margin-right: 12px;
+}
+
+.logout-container svg {
+    display: inline-flex;
+}
+
+.btn.show {
+    border: 0;
+}
+
+.dropdown-menu.show {
+    display: flex;
+    justify-content: end;
+    background-color: transparent;
+    border: 0;
+}

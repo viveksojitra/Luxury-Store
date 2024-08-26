@@ -6,6 +6,9 @@ import Home from './components/Home';
 import Product from './components/Product';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollTop';
+import Login from './pages/Login';
+import PageNotFound from './pages/PageNotFound';
+import SignUp from './pages/SignUp';
 
 function App() {
 
@@ -14,8 +17,11 @@ function App() {
       <ScrollToTop />
       <Header />
       <Routes>
-        <Route path='*' element={<Home />} />
+        <Route path='/login' element={<Login />} />
+        <Route path='/signup' element={<SignUp />} />
+        <Route path="/" element={<Home />} />
         <Route path='/product/:id' element={<Product />} />
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
       <Footer />
     </>
