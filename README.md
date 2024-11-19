@@ -33,7 +33,7 @@ _Preview images and videos of the project will be here._
 
 ## 🎞 Demo Video
 [Watch Demo Video] - Admin/User
-https://github.com/user-attachments/assets/627c8fed-984b-4db8-9115-ba9bb4f74e36
+https://github.com/user-attachments/assets/79e38f7c-e5a0-4c9e-b095-28ce66b80da7
 
 ## 🎥 Preview
 _ADMIN SIDE_
