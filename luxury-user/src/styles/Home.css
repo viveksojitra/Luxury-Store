@@ -1,4 +1,5 @@
 .banner img {
+    margin-top: -300px;
     width: 100%;
     height: auto;
 }
@@ -20,8 +21,13 @@
     font-weight: 600;
 }
 
-.watch-card{
+.watch-card,
+.watch-card-update {
     max-width: 424px;
     min-height: 538px;
     max-height: 538px;
+}
+
+.products-row:nth-child(-n+3) {
+    margin-top: -320px;
 }

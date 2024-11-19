@@ -51,7 +51,7 @@ function Header() {
                                 {cartItems.map(item => (
                                     <li key={item.id} className="list-group-item d-flex justify-content-between align-items-center border-0">
                                         <div className="cart-container d-flex justify-content-center align-items-center gap-2">
-                                            <div className="cart-image-container d-flex justify-content-center align-items-center rounded">
+                                            <div className="cart-image-container bg-white d-flex justify-content-center align-items-center rounded">
                                                 <img src={item.profile} alt={item.name} className="cart-image rounded" />
                                             </div>
                                             <div className="d-flex flex-column">
@@ -65,7 +65,7 @@ function Header() {
                                             </i>
                                         </button>
                                     </li>
-                                    
+
                                 ))}
                             </ul>
                         )
@@ -92,7 +92,7 @@ function Header() {
                     </Navbar.Collapse>
                     <div className="toggle-container d-flex justify-content-center align-items-center">
                         <Button variant="" onClick={handleShow}>
-                            <i className="cart-icon">
+                            <i className="cart-icon me-2">
                                 <FontAwesomeIcon icon={faCartShopping} />
                             </i>
                         </Button>
@@ -101,7 +101,7 @@ function Header() {
                                 <Dropdown.Toggle className="m-0 p-0 border-0 d-flex justify-content-center align-items-center" variant="button" id="user-menu-dropdown">
                                     <a href="#login" className="user-icon">
                                         <i className="material-icons position-relative d-flex justify-content-center align-items-center">
-                                            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-person-circle" viewBox="0 0 16 16">
+                                            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" className="bi bi-person-circle" viewBox="0 0 16 16">
                                                 <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0" />
                                                 <path fillRule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1" />
                                             </svg>

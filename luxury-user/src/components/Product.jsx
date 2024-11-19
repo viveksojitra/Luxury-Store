@@ -7,7 +7,7 @@ import { addToCart } from "../store/actions/cartAction";
 function Product() {
     const { products } = useSelector(state => state.productReducer);
     const { id } = useParams();
-    
+
     const dispatch = useDispatch();
 
     const handleAddToCart = (product) => {
@@ -74,12 +74,12 @@ function Product() {
                 </Row>
             </Container>
 
-            <Container className="watches-container">
+            <Container className="watches-container-update">
                 <Row>
                     {
                         suggestion.map((watch) => (
                             <Col key={watch.id} xs={12} md={6} lg={4} className="my-3">
-                                <Card className="watch-card" onClick={() => handleNevigate(watch.id)}>
+                                <Card className="watch-card-update" onClick={() => handleNevigate(watch.id)}>
                                     <Card.Img variant="top" src={watch.profile} />
                                     <Card.Body>
                                         <Card.Title>{watch.brand}</Card.Title>

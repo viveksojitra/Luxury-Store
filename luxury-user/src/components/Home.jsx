@@ -39,7 +39,7 @@ function Home() {
                 <Image src={BANNER.banner1} fluid />
             </div>
             <Container className="watches-container">
-                <Row>
+                <Row className='products-row'>
                     {
                         products.map((data) => (
                             <Col key={data.id} xs={12} md={6} lg={4} className="my-3">
